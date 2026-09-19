@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+        "daniko": {
+            "url": "https://paramedic-gullible-tightrope.ngrok-free.dev/mcp"
+        }
+    }
+}

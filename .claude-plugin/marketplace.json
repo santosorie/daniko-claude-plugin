@@ -1,0 +1,14 @@
+{
+    "name": "daniko-plugins",
+    "owner": {
+        "name": "Daniko",
+        "url": "https://github.com/santosorie"
+    },
+    "plugins": [
+        {
+            "name": "daniko-teacher-tools",
+            "source": "./",
+            "description": "Draft and save lesson plans and quizzes into Daniko from Claude Desktop, using your own Daniko teacher account."
+        }
+    ]
+}

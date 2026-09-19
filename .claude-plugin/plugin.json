@@ -1,0 +1,8 @@
+{
+    "name": "daniko-teacher-tools",
+    "description": "Draft and save lesson plans and quizzes into Daniko from Claude Desktop, using your own Daniko teacher account.",
+    "version": "0.1.0",
+    "author": {
+        "name": "Daniko"
+    }
+}
