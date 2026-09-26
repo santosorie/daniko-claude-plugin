@@ -6,7 +6,7 @@
     },
     "plugins": [
         {
-            "name": "daniko-teacher-tools",
+            "name": "daniko",
             "source": "./",
             "description": "Draft and save lesson plans and quizzes into Daniko from Claude Desktop, using your own Daniko teacher account."
         }
