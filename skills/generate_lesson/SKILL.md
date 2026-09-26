@@ -27,7 +27,12 @@ lesson plan (`content`) should have this structure, in this order:
    requested duration
 4. **Assessment** — how understanding will be checked
 
-Keep the `title` short and specific (max 100 characters — it's a hard database limit).
+Write `content` as well-formed HTML — headings (`<h1>`/`<h2>`), paragraphs (`<p>`), lists
+(`<ul>`/`<ol>`), and tables (`<table>`) where they fit. It's stored and rendered as raw HTML,
+the same as Daniko's own web editor — do not send plain text or Markdown.
+
+Keep the `title` short and specific (max 100 characters — it's a hard database limit), and
+plain text (no HTML tags).
 
 ## 3. Get the teacher's approval
 
