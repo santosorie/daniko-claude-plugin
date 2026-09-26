@@ -13,12 +13,21 @@ Every quiz in Daniko belongs to an existing lesson plan (a "paper"). You need it
   reuse the `paper_id` it returned — don't ask the teacher to repeat it.
 - Otherwise, ask the teacher which lesson plan the quiz is for.
 
+Then call `get-quiz` with that `paper_id` to see whether the lesson already has questions.
+**`save-quiz` only ever adds — it never replaces.** If the lesson already has a quiz and the
+teacher asks for "a new one" or "a better one", saving again leaves them with both sets. Say
+what's already there and ask whether they want to add to it, or fix what exists (use the
+`edit_quiz` skill for that) — never silently save a second set.
+
 ## 2. Confirm the quiz shape
 
 If the teacher didn't already say, ask: how many questions, and what difficulty/point value
 per question. Daniko only accepts **10, 20, or 30** points per question (a fixed enum, not a
 free choice) — if the teacher gives another number, round to the nearest of the three and
 tell them you did.
+
+A single save accepts at most **30 questions**; anything beyond that is silently discarded. If
+the teacher asks for more, tell them the limit rather than letting questions vanish.
 
 ## 3. Draft the questions yourself
 
