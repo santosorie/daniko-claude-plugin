@@ -18,8 +18,13 @@ current title and full HTML `content`.
 
 Apply the teacher's requested change to the content or title yourself — do not call any tool
 to generate it. Keep the parts the teacher didn't ask to change as they are. `content` is
-well-formed HTML (e.g. `<h1>`, `<h2>`, `<p>`, `<table>`, `<ul>`), stored and rendered as-is,
-same as the web editor — do not send plain text or Markdown.
+well-formed HTML, stored and rendered as-is, same as the web editor — do not send plain text
+or Markdown.
+
+Daniko styles `<h1>`–`<h4>`, `<p>`, `<ul>`/`<ol>`, `<table>` (with shaded header cells),
+`<blockquote>`, `<pre>`/`<code>` and `<img>`. If the teacher asks to improve how an older
+lesson reads, these are the tools for it — a wall of `<p>` often becomes clearer as a table,
+a list, or prose with the key definition pulled into a `<blockquote>`.
 
 ## 3. Get the teacher's approval
 

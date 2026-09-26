@@ -27,9 +27,24 @@ lesson plan (`content`) should have this structure, in this order:
    requested duration
 4. **Assessment** — how understanding will be checked
 
-Write `content` as well-formed HTML — headings (`<h1>`/`<h2>`), paragraphs (`<p>`), lists
-(`<ul>`/`<ol>`), and tables (`<table>`) where they fit. It's stored and rendered as raw HTML,
-the same as Daniko's own web editor — do not send plain text or Markdown.
+Write `content` as well-formed HTML — it's stored and rendered as raw HTML, the same as
+Daniko's own web editor, so do not send plain text or Markdown.
+
+Daniko styles all of the following, so use whichever genuinely helps the lesson read well:
+
+| Element | Use it for |
+|---|---|
+| `<h1>`–`<h4>` | Section structure — one `<h1>` for the lesson, `<h2>`/`<h3>` for each part |
+| `<p>` | Ordinary prose |
+| `<ul>` / `<ol>` | Materials, steps, objectives — anything enumerable |
+| `<table>` | Timings, comparisons, rubrics. Header cells get a shaded background automatically |
+| `<blockquote>` | A key definition or takeaway worth setting apart |
+| `<pre>` / `<code>` | Code, commands, formulas — anything monospaced |
+| `<img src="...">` | Diagrams or illustrations. Sized responsively by the page |
+
+Prefer a table over a long paragraph when the content is genuinely tabular (a lesson timeline,
+a rubric), and a list over prose when the content is genuinely a list. Don't decorate for its
+own sake — structure should match the content, not perform effort.
 
 Keep the `title` short and specific (max 100 characters — it's a hard database limit), and
 plain text (no HTML tags).

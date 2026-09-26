@@ -27,8 +27,9 @@ question:
 
 - A clear question text
 - 2–4 multiple-choice options, exactly one marked correct
-- An optional short explanation of the correct answer (helps students learning from
-  mistakes — include it when it adds value, skip it for straightforward questions)
+- An `explanation` — always write one. Say *why* the correct answer is correct, and where it
+  helps, why the tempting wrong option isn't. Students see this after answering, so it's the
+  part that teaches; a question without it only tests. Keep it to a sentence or two.
 
 Base the questions on the lesson plan's actual content so they test what was taught, not
 generic trivia about the topic.
